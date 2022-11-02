@@ -1,0 +1,18 @@
+FASTAPI & AWS course:
+
+BaseSettings, from pydantic, validates the data so that when we create an instance of Settings, environment and testing will have types of str and bool, respectively.
+
+
+
+## to change global varibales:
+
+export ENVIRONMENT=prod
+
+## Its better to get the enviroment variables in a file isntead of renovating them
+
+git remote add origin https://github.com/estevelaguco/FASTAPI&AWS_Course
+
+3.3 in the version, dockerfile needs to be inside the project
+
+to initialize docker sudo snap start docker to build: sudo docker-compose build
+
