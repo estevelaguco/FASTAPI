@@ -14,5 +14,28 @@ git remote add origin https://github.com/estevelaguco/FASTAPI&AWS_Course
 
 3.3 in the version, dockerfile needs to be inside the project
 
-to initialize docker sudo snap start docker to build: sudo docker-compose build
+
+Tortoise build models for databases?
+
+airy: separate the dabase? migrate?
+
+# to build docker
+sudo docker-compose up -d --build
+
+# to shut docker
+sudo docker-compose down -v
+
+
+# To seee the tables
+docker-compose exec web-db psql -U postgres
+
+\c web_db
+\dt
+
+
+###########################
+
+git add -A
+git commit -m 'New'
+git push origin
 
